@@ -1,3 +1,15 @@
 class Formatter {
-  //add static methods here
+  static capitalize(string) {
+    return string.capitalize
+  }
+
+  static sanitize(string){
+
+  }
+
+  static titlize(string){
+    if (string !== ("a", "an","but","of","and","for","at","by","from")) {
+      return string.upcase }
+  }
+
 }
